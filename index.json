@@ -3,6 +3,30 @@
   "name": "My Plugin Repository",
   "description": "Example plugin repository from the Revenge plugin template.",
   "plugins": {
+    "Loki.vtx.questify": {
+      "name": "Silent-Edit",
+      "description": "too lazy to add shit here sry not sry.",
+      "author": "Loki-vtx",
+      "icon": "PencilIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://loki-vtx.github.io/Revenge-Next/pool/Loki.vtx.questify@1.0.0.zip",
+          "sha256": "1fa93d93f12fa4bf8a5e928cff5fda5024989b3788d1e3d655ecff8022852222",
+          "size": 2185,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "com.example.always-errors": {
       "name": "Always Errors",
       "description": "A plugin that always throws errors.",
