@@ -76,6 +76,30 @@
           }
         }
       }
+    },
+    "loki.vtx.silent.edit": {
+      "name": "Silent-Edit",
+      "description": "too lazy to add shit here sry not sry.",
+      "author": "Loki-vtx",
+      "icon": "PencilIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://loki-vtx.github.io/Revenge-Next/pool/loki.vtx.silent.edit@1.0.0.zip",
+          "sha256": "6b06a9a8e43f674ef627f9d74e9c3d190373f30053343c8b22c6d51290c02bf5",
+          "size": 2186,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
     }
   }
 }
