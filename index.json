@@ -1,0 +1,57 @@
+{
+  "format": 1,
+  "name": "My Plugin Repository",
+  "description": "Example plugin repository from the Revenge plugin template.",
+  "plugins": {
+    "com.example.always-errors": {
+      "name": "Always Errors",
+      "description": "A plugin that always throws errors.",
+      "author": "Your Name <643945264868098049> (https://discord.com \"Website\")",
+      "icon": "CircleErrorIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://loki-vtx.github.io/Revenge-Next/pool/com.example.always-errors@1.0.0.zip",
+          "sha256": "b3eed6d1854a389536159bec6ecb6ec95aa87d72efdca04aebd808c27dd609dc",
+          "size": 596,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "com.example.dependent": {
+      "name": "Example Dependent",
+      "description": "Depends on Example Library. Also installs the library.",
+      "author": "Your Name <643945264868098049> (https://discord.com \"Website\")",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://loki-vtx.github.io/Revenge-Next/pool/com.example.dependent@1.0.0.zip",
+          "sha256": "29544b29b17d8888c5861c361998a43b0c9a251ec08acb975123d9b69249a701",
+          "size": 637,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "com.example.library": {
+              "version": ">=1 <2"
+            }
+          }
+        }
+      }
+    }
+  }
+}
