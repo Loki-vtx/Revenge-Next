@@ -6,7 +6,7 @@ import { after, before, instead } from '@revenge-mod/patcher'
 import { React } from '@revenge-mod/react'
 import { findInTree } from '@revenge-mod/utils/tree'
 
-import { DEFAULTS } from './defualts'
+import { DEFAULTS } from './defaults'
 import SettingsComponent from './Settings'
 
 type Settings = {
