@@ -27,6 +27,30 @@
         }
       }
     },
+    "Loki.vtx.silent.edit": {
+      "name": "Silent-Edit",
+      "description": "too lazy to add shit here sry not sry.",
+      "author": "Loki-vtx",
+      "icon": "PencilIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://loki-vtx.github.io/Revenge-Next/pool/Loki.vtx.silent.edit@1.0.0.zip",
+          "sha256": "3e8f18fdc71cdba878e06059c677c3df26d44079cab081016e6d1c9c0d52b08e",
+          "size": 2183,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "com.example.always-errors": {
       "name": "Always Errors",
       "description": "A plugin that always throws errors.",
