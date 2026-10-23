@@ -9,12 +9,25 @@
       "author": "Loki-vtx <918437723755384832> ",
       "icon": "PencilIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://loki-vtx.github.io/revenge-next/pool/Loki.vtx.CopyBios@1.0.0.zip",
           "sha256": "646a4b5ad3489e0be7210591bdeaf7db856729fb07734ef5c867855081f997c8",
+          "size": 831,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://loki-vtx.github.io/revenge-next/pool/Loki.vtx.CopyBios@1.0.1.zip",
+          "sha256": "3441cf672a97dfc3b40606dc961ab32397ebd99245f16c468caee85cac8ee337",
           "size": 831,
           "dependencies": {
             "revenge.api": {
@@ -160,13 +173,26 @@
       "description": "Sends a random GIF from your favorite GIFs. Based on btmc727",
       "author": "Loki-vtx",
       "channels": {
-        "latest": "0.0.2"
+        "latest": "0.1.2"
       },
       "versions": {
         "0.0.2": {
           "url": "https://loki-vtx.github.io/revenge-next/pool/loki.vtx.gif.roulette@0.0.2.zip",
           "sha256": "4f31c271ab0c049b1e95e2e6d1b7e661fb3c02d53ddafc741c1db561cdc8fb60",
           "size": 1442,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "0.1.2": {
+          "url": "https://loki-vtx.github.io/revenge-next/pool/loki.vtx.gif.roulette@0.1.2.zip",
+          "sha256": "d047cba4372d103b5f61b6dd26b1cbcf4be269e035236fa4cd14b5ac46b2d00b",
+          "size": 1441,
           "dependencies": {
             "revenge.api": {
               "version": ">=1 <2"
