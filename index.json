@@ -146,11 +146,11 @@
     },
     "dev.loki.vtx.token-grabber": {
       "name": "TokenUtils",
-      "description": "Copy your account token from your profile and switch accounts with a token.(made by ai because i need it asap)",
+      "description": "Copy  Your Own token by typing : /token_get",
       "author": "Loki-vtx",
       "icon": "KeyIcon",
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.1.2"
       },
       "versions": {
         "1.0.1": {
@@ -170,6 +170,19 @@
           "url": "https://loki-vtx.github.io/revenge-next/pool/dev.loki.vtx.token-grabber@1.0.2.zip",
           "sha256": "364e7665cdf75a6deea3f10bc7b6bcf39a42725b325b37dc1bf150d7e0c6ff7e",
           "size": 2283,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.1.2": {
+          "url": "https://loki-vtx.github.io/revenge-next/pool/dev.loki.vtx.token-grabber@1.1.2.zip",
+          "sha256": "22188af99f36ccaa895c1806b73d3286518971e5779e6adccddd1d45c9ea8e74",
+          "size": 2249,
           "dependencies": {
             "revenge.api": {
               "version": ">=1 <2"
