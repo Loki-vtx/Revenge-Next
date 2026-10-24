@@ -150,7 +150,7 @@
       "author": "Loki-vtx <918437723755384832> ",
       "icon": "PencilIcon",
       "channels": {
-        "latest": "0.0.3"
+        "latest": "0.0.4"
       },
       "versions": {
         "0.0.1": {
@@ -183,6 +183,19 @@
           "url": "https://loki-vtx.github.io/revenge-next/pool/dev.loki.vtx.bettercommandpopup@0.0.3.zip",
           "sha256": "04cb7698a829c323ddeedbc9603cc5a5abc63c8cc8d7bb4d3716546a07663e3f",
           "size": 1253,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "0.0.4": {
+          "url": "https://loki-vtx.github.io/revenge-next/pool/dev.loki.vtx.bettercommandpopup@0.0.4.zip",
+          "sha256": "7756790390da7def9493fdc372325f78ad2c6d51dbe5a3752abf42b152b047cc",
+          "size": 1319,
           "dependencies": {
             "revenge.api": {
               "version": ">=1 <2"
